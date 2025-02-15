@@ -21,7 +21,6 @@ def contact(update: Update, context: CallbackContext):
         reply_markup=keyboards.home_keyboard()
     )
 
-
 def models(update: Update, context: CallbackContext):
     user = update.message.from_user
     update.message.reply_text(
@@ -36,11 +35,39 @@ def models_yopiqtest(update: Update, context: CallbackContext):
         reply_markup=keyboards.models_yopiqtest_keyboard()
     )
 
+def view_all_vocabulry(update: Update, context: CallbackContext):
+    user = update.message.from_user
+    update.message.reply_text(
+        text=f"{user.full_name} let is read!",
+        reply_markup=keyboards.models_view_keyboard()
+    )
+
+def view_one_list_get(update: Update, context: CallbackContext):
+    get_model = update.callback_query.data.split(":")[1]
+    datas = db.get_one_model(get_model)
+    view_lists = ""
+    for id, row in enumerate(datas):
+        key, val = row['english'], row['uzbek']
+        view_lists += f"{id+1}) {str(key).capitalize()} -- {val}\n\n"
+
+    if update.callback_query:
+        sent_message = update.callback_query.message.reply_text(
+            text = f"{view_lists}",
+            reply_markup=keyboards.home_keyboard()
+        )
+    else:
+        sent_message = update.message.reply_text(
+            text = f"{view_lists}",
+            reply_markup=keyboards.home_keyboard()
+        )
+    return 
+
+
 def one_model(update: Update, context: CallbackContext):
     ml = update.callback_query.data.split(":")[1]
-    images = db.get_one_model(ml)
-    
-    context.user_data['images'] = images
+    datas = db.get_one_model(ml)
+
+    context.user_data['datas'] = datas
     context.user_data['current_image_index'] = 0
     context.user_data['correct_count'] = 0
     context.user_data['incorrect_count'] = 0
@@ -48,18 +75,19 @@ def one_model(update: Update, context: CallbackContext):
     send_next_image(update, context)
 
 def send_next_image(update: Update, context: CallbackContext):
-    images = context.user_data.get('images', [])
+    datas = context.user_data.get('datas', [])
     current_index = context.user_data.get('current_image_index', 0)
 
-    if current_index < len(images):
-        item = images[current_index]
-        image_ls = [j['name'] for j in images if j['name'] != item['name']]
-        random_image = random.sample(image_ls, 3)
+    if current_index < len(datas):
+        item = datas[current_index]
+        words_variant = [j['uzbek'] for j in datas if j['uzbek'] != item['uzbek']]
+    
+        random_variant = random.sample(words_variant, 3)
         btns = [
-            InlineKeyboardButton(item['name'], callback_data=f'answer:{current_index}:True'), 
-            InlineKeyboardButton(random_image[0], callback_data=f'answer:{current_index}:False'),
-            InlineKeyboardButton(random_image[1], callback_data=f'answer:{current_index}:False'),
-            InlineKeyboardButton(random_image[2], callback_data=f'answer:{current_index}:False')
+            InlineKeyboardButton(item['uzbek'], callback_data=f'answer:{current_index}:True'), 
+            InlineKeyboardButton(random_variant[0], callback_data=f'answer:{current_index}:False'),
+            InlineKeyboardButton(random_variant[1], callback_data=f'answer:{current_index}:False'),
+            InlineKeyboardButton(random_variant[2], callback_data=f'answer:{current_index}:False')
         ]
         random.shuffle(btns)
         reply_markup = InlineKeyboardMarkup(
@@ -70,15 +98,13 @@ def send_next_image(update: Update, context: CallbackContext):
         )
 
         if update.callback_query:
-            sent_message = update.callback_query.message.reply_photo(
-                photo=item['img_url'],
-                caption='Rasmni toping (ingliz tilida)',
+            sent_message = update.callback_query.message.reply_text(
+                text=str(item['english']).capitalize() + " - ?",
                 reply_markup=reply_markup
             )
         else:
-            sent_message = update.message.reply_photo(
-                photo=item['img_url'],
-                caption='Rasmni toping (ingliz tilida)',
+            sent_message = update.message.reply_text(
+                text=str(item['english']).capitalize() + " - ?",
                 reply_markup=reply_markup
             )
 
@@ -136,17 +162,15 @@ def send_next_image_yopiqtest(update: Update, context: CallbackContext):
     if current_index < len(images):
         item = images[current_index]
         if update.callback_query:
-            sent_message = update.callback_query.message.reply_photo(
-                photo=item['img_url'],
-                caption='Rasmni toping (ingliz tilida)',
+            sent_message = update.callback_query.message.reply_text(
+                text=item['english'],
             )
-            context.user_data['image_name'] = item['name']
+            context.user_data['image_name'] = item['uzbek']
         else:
-            sent_message = update.message.reply_photo(
-                photo=item['img_url'],
-                caption='Rasmni toping (ingliz tilida)',
+            sent_message = update.callback_query.message.reply_text(
+                text=item['english'],
             )
-            context.user_data['image_name'] = item['name']
+            context.user_data['image_name'] = item['uzbek']
         context.user_data['current_image_index'] += 1
     else:
         send_image_end(update, context)
