@@ -92,8 +92,10 @@ def send_next_image(update: Update, context: CallbackContext):
         random.shuffle(btns)
         reply_markup = InlineKeyboardMarkup(
             [
-                btns[:2],
-                btns[2:]
+                btns[0],
+                btns[1],
+                btns[2],
+                btns[3]
             ]
         )
 

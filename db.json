@@ -1,5 +1,5 @@
 {
-    "21-dars vocabulary":{
+    "22-dars vocabulary":{
         "1":{
             "english": "established",
             "uzbek": "tashkil etilgan"
@@ -21,20 +21,20 @@
             "uzbek": "bolalarcha, nodon"
         },
         "6": {
-            "english": "min",
-            "uzbek": "daqiqa (qisqartma: minute)"
+            "english": "mind",
+            "uzbek": "aql"
         },
         "7": {
             "english": "countryside",
             "uzbek": "qishloq joy"
         },
         "8": {
-            "english": "surrounded by",
-            "uzbek": "bilan o‘ralgan"
+            "english": "surrounded",
+            "uzbek": "o‘ralgan"
         },
         "9": {
             "english": "banks",
-            "uzbek": "qirg‘oq (daryo, ko‘l)"
+            "uzbek": "qirg‘oq"
         },
         "10": {
             "english": "woods",
@@ -97,8 +97,8 @@
             "uzbek": "vodiy"
         },
         "25": {
-            "english": "woods",
-            "uzbek": "o‘rmon"
+            "english": "branches",
+            "uzbek": "shoxchalar"
         },
         "26": {
             "english": "fence",
@@ -114,15 +114,15 @@
         },
         "29": {
             "english": "footpath",
-            "uzbek": "yayaq yo‘lak"
+            "uzbek": "piyoda yo'lagi"
         },
         "30": {
             "english": "field",
             "uzbek": "dala"
         },
         "31": {
-            "english": "fence",
-            "uzbek": "to‘siq, devor"
+            "english": "plants",
+            "uzbek": "o'simliklar"
         },
         "32": {
             "english": "hopeless",
@@ -155,6 +155,18 @@
         "39": {
             "english": "challenging",
             "uzbek": "qiyin, talabchan"
+        },
+        "40": {
+            "english": "grass",
+            "uzbek": "o't"
+        },
+        "41":{
+            "english": "leaves",
+            "uzbek": "barglar"
+        },
+        "42":{
+            "english": "ground",
+            "uzbek": "yer" 
         }
     }
         
