@@ -168,7 +168,127 @@
             "english": "ground",
             "uzbek": "yer" 
         }
+    },
+    "irregular verbs 1-30" : {
+        "1": {
+            "english": "be",
+            "uzbek": "was/were, been (bo‘lmoq)"
+        },
+        "2": {
+            "english": "begin",
+            "uzbek": "began, begun (boshlamoq)"
+        },
+        "3": {
+            "english": "break",
+            "uzbek": "broke, broken (sindirmoq)"
+        },
+        "4": {
+            "english": "bring",
+            "uzbek": "brought, brought (olib kelmoq)"
+        },
+        "5": {
+            "english": "build",
+            "uzbek": "built, built (qurmoq)"
+        },
+        "6": {
+            "english": "buy",
+            "uzbek": "bought, bought (sotib olmoq)"
+        },
+        "7": {
+            "english": "catch",
+            "uzbek": "caught, caught (ushlamoq)"
+        },
+        "8": {
+            "english": "come",
+            "uzbek": "came, come (kelmoq)"
+        },
+        "9": {
+            "english": "do",
+            "uzbek": "did, done (qilmoq)"
+        },
+        "10": {
+            "english": "drink",
+            "uzbek": "drank, drunk (ichmoq)"
+        },
+        "11": {
+            "english": "eat",
+            "uzbek": "ate, eaten (yemoq)"
+        },
+        "12": {
+            "english": "fall",
+            "uzbek": "fell, fallen (yiqilmoq)"
+        },
+        "13": {
+            "english": "feel",
+            "uzbek": "felt, felt (his qilmoq)"
+        },
+        "14": {
+            "english": "find",
+            "uzbek": "found, found (topmoq)"
+        },
+        "15": {
+            "english": "forget",
+            "uzbek": "forgot, forgotten (unutmoq)"
+        },
+        "16": {
+            "english": "get",
+            "uzbek": "got, got/gotten (olmoq)"
+        },
+        "17": {
+            "english": "give",
+            "uzbek": "gave, given (bermoq)"
+        },
+        "18": {
+            "english": "go",
+            "uzbek": "went, gone (bormoq)"
+        },
+        "19": {
+            "english": "have",
+            "uzbek": "had, had (ega bo‘lmoq)"
+        },
+        "20": {
+            "english": "hear",
+            "uzbek": "heard, heard (eshitmoq)"
+        },
+        "21": {
+            "english": "know",
+            "uzbek": "knew, known (bilmoq)"
+        },
+        "22": {
+            "english": "leave",
+            "uzbek": "left, left (tark etmoq)"
+        },
+        "23": {
+            "english": "lose",
+            "uzbek": "lost, lost (yo‘qotmoq)"
+        },
+        "24": {
+            "english": "make",
+            "uzbek": "made, made (yasamoq)"
+        },
+        "25": {
+            "english": "meet",
+            "uzbek": "met, met (uchrashmoq)"
+        },
+        "26": {
+            "english": "pay",
+            "uzbek": "paid, paid (to‘lamoq)"
+        },
+        "27": {
+            "english": "read",
+            "uzbek": "read, read (o‘qimoq)"
+        },
+        "28": {
+            "english": "run",
+            "uzbek": "ran, run (yugurmoq)"
+        },
+        "29": {
+            "english": "say",
+            "uzbek": "said, said (aytmoq)"
+        },
+        "30": {
+            "english": "see",
+            "uzbek": "saw, seen (ko‘rmoq)"
+        }
     }
-        
-    
 }
