@@ -1,6 +1,6 @@
 from tinydb import TinyDB
 
-tindb = TinyDB('db.json', indent = 4)
+tindb = TinyDB('db_falsafa.json', indent = 4)
 
 def get_models():
     models = tindb.tables()

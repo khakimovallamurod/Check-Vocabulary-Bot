@@ -42,13 +42,34 @@ def view_all_vocabulry(update: Update, context: CallbackContext):
         reply_markup=keyboards.models_view_keyboard()
     )
 
+# def view_one_list_get(update: Update, context: CallbackContext):
+#     get_model = update.callback_query.data.split(":")[1]
+#     datas = db.get_one_model(get_model)
+#     view_lists = ""
+#     for id, row in enumerate(datas):
+#         key, val = row['english'], row['uzbek']
+#         view_lists += f"{id+1}) {str(key).capitalize()} -- {val}\n\n"
+
+#     if update.callback_query:
+#         sent_message = update.callback_query.message.reply_text(
+#             text = f"{view_lists}",
+#             reply_markup=keyboards.home_keyboard()
+#         )
+#     else:
+#         sent_message = update.message.reply_text(
+#             text = f"{view_lists}",
+#             reply_markup=keyboards.home_keyboard()
+#         )
+#     return 
+
 def view_one_list_get(update: Update, context: CallbackContext):
     get_model = update.callback_query.data.split(":")[1]
     datas = db.get_one_model(get_model)
     view_lists = ""
     for id, row in enumerate(datas):
-        key, val = row['english'], row['uzbek']
-        view_lists += f"{id+1}) {str(key).capitalize()} -- {val}\n\n"
+        answer = datas['answer']
+        question = datas['question']
+        view_lists += f"{id+1}) {str(question).capitalize()}\nJavob: {datas['options'][answer]}\n\n"
 
     if update.callback_query:
         sent_message = update.callback_query.message.reply_text(
@@ -61,7 +82,6 @@ def view_one_list_get(update: Update, context: CallbackContext):
             reply_markup=keyboards.home_keyboard()
         )
     return 
-
 
 def one_model(update: Update, context: CallbackContext):
     ml = update.callback_query.data.split(":")[1]
@@ -80,11 +100,19 @@ def send_next_image(update: Update, context: CallbackContext):
 
     if current_index < len(datas):
         item = datas[current_index]
-        words_variant = [j['uzbek'] for j in datas if j['uzbek'] != item['uzbek']]
+        # words_variant = [j['uzbek'] for j in datas if j['uzbek'] != item['uzbek']]
     
-        random_variant = random.sample(words_variant, 3)
+        # random_variant = random.sample(words_variant, 3)
+        # btns = [
+        #     InlineKeyboardButton(item['uzbek'], callback_data=f'answer:{current_index}:True'), 
+        #     InlineKeyboardButton(random_variant[0], callback_data=f'answer:{current_index}:False'),
+        #     InlineKeyboardButton(random_variant[1], callback_data=f'answer:{current_index}:False'),
+        #     InlineKeyboardButton(random_variant[2], callback_data=f'answer:{current_index}:False')
+        # ]
+        answer = item['answer']
+        random_variant = [var for key, var in item['options'].items() if key != answer]
         btns = [
-            InlineKeyboardButton(item['uzbek'], callback_data=f'answer:{current_index}:True'), 
+            InlineKeyboardButton(item['options'][answer], callback_data=f'answer:{current_index}:True'), 
             InlineKeyboardButton(random_variant[0], callback_data=f'answer:{current_index}:False'),
             InlineKeyboardButton(random_variant[1], callback_data=f'answer:{current_index}:False'),
             InlineKeyboardButton(random_variant[2], callback_data=f'answer:{current_index}:False')
@@ -101,12 +129,12 @@ def send_next_image(update: Update, context: CallbackContext):
 
         if update.callback_query:
             sent_message = update.callback_query.message.reply_text(
-                text=str(item['english']).capitalize() + " - ?",
+                text=str(item['question']).capitalize(),
                 reply_markup=reply_markup
             )
         else:
             sent_message = update.message.reply_text(
-                text=str(item['english']).capitalize() + " - ?",
+                text=str(item['question']).capitalize(),
                 reply_markup=reply_markup
             )
 

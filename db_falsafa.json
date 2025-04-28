@@ -1,0 +1,504 @@
+{
+    "falsafa fanidan testlar(1-50)": {
+      "1": {
+        "question": "«Filosofiya» atamasini Qadimgi Yunonistonda dastlab kim ishlatgan?",
+        "options": {
+          "A": "Demokrit.",
+          "B": "Pifagor.",
+          "C": "Aflotun.",
+          "D": "Arastu."
+        },
+        "answer": "B"
+      },
+      "2": {
+        "question": "«Ikkinchi Arastu», «Ikkinchi muallim» deb e'tirof etilgan mutafakkir kim?",
+        "options": {
+          "A": "Ibn Sino.",
+          "B": "Forobiy.",
+          "C": "Beruniy.",
+          "D": "al-Farg'oniy."
+        },
+        "answer": "B"
+      },
+      "3": {
+        "question": "«Filosofiya» so'zining lug'aviy ma'nosini aniqlang.",
+        "options": {
+          "A": "«fanlarning otasi»",
+          "B": "«donishmandlik»",
+          "C": "«odamni Qadrlash»",
+          "D": "«donishmandlikni sevish»"
+        },
+        "answer": "D"
+      },
+      "4": {
+        "question": "Sharq mutafakkirlaridan qaysi biri filosofiya so'zini «Hikmatni qadrlash» deb talqin etgan?",
+        "options": {
+          "A": "Imom Buxoriy.",
+          "B": "Burxoniddin Marg'inoniy.",
+          "C": "Alisher Navoiy.",
+          "D": "Abu Nasr Forobiy."
+        },
+        "answer": "D"
+      },
+      "5": {
+        "question": "Monizm qanday ta'limot?",
+        "options": {
+          "A": "Olamning asosi yakkayu yagona sababga, bitta asosga ega deyuvchi ta'limot.",
+          "B": "Olamning asosida ko'p narsa va g'oyalar yotadi, deb e'tirof etadigan ta'limot.",
+          "C": "Olamning asosida moddiy narsa yotishni e'tirof etadi.",
+          "D": "Olamning asosida ruh yoki g'oyalar yotadi."
+        },
+        "answer": "A"
+      },
+      "6": {
+        "question": "Dualizm qanday ta'limot?",
+        "options": {
+          "A": "Olam bitta asosga ega deb tan oluvchi ta'limot.",
+          "B": "Olamning asosida faqat moddiylik yotadi.",
+          "C": "Olamning asosida ruh, g'oyalar yotadi.",
+          "D": "Olamning asosida ikkita asos, ya'ni materiya va ruh, g'oya yotadi deb e'tirof etuvchi ta'limot."
+        },
+        "answer": "D"
+      },
+      "7": {
+        "question": "Dunyoqarashning shakllarini aniqlang.",
+        "options": {
+          "A": "afsona (mif), din, falsafa",
+          "B": "san'at, ma'naviyat, falsafa.",
+          "C": "Fan, axloq, din.",
+          "D": "huquq, siyosat, axloq."
+        },
+        "answer": "A"
+      },
+      "8": {
+        "question": "Ontologiya qanday ta'limot?",
+        "options": {
+          "A": "borliq to'g'risidagi ta'limot.",
+          "B": "insonning amaliy faoliyati haqidagi ta'limot.",
+          "C": "axloq to'g'risidagi bilimlar, qarashlar.",
+          "D": "qadriyatlar to'g'risidagi ta'limot."
+        },
+        "answer": "A"
+      },
+      "9": {
+        "question": "Gnoseologiya qanday ta'limot?",
+        "options": {
+          "A": "bilishning shakl, usullari to'g'risidagi ta'limot.",
+          "B": "Tafakkur shakllarini o'rganadi.",
+          "C": "Qadriyatlar to'g'risidagi fan.",
+          "D": "go'zallik haqidagi qarashlar."
+        },
+        "answer": "A"
+      },
+      "10": {
+        "question": "Aksiologiya…",
+        "options": {
+          "A": "bilishning mohiyati haqidagi nazariya.",
+          "B": "amaliy faoliyat to'g'risidagi falsafiy qarashlar.",
+          "C": "Qadriyatlar to'g'risidagi ta'limot.",
+          "D": "borliq haqidagi ta'limot."
+        },
+        "answer": "C"
+      },
+      "11": {
+        "question": "Falsafa fanining vazifaalri.",
+        "options": {
+          "A": "jamiyatni anglash.",
+          "B": "tabiatni bilish",
+          "C": "jamiyat va inson o'rtasidagi munosabatlar.",
+          "D": "uslubiy, gnoseologik (bilish), tarbiyaviy."
+        },
+        "answer": "D"
+      },
+      "12": {
+        "question": "O'zbekiston Prezidenti Islom Karimov qaysi asarida yoshlarni Sokrat, Platon, Freyd qarashlari, pragmatizm, ekzistentsializm g'oyalarini o'rganishga chaqiradi?",
+        "options": {
+          "A": "«Sog'lom avlod – xalqimiz kelajagi»",
+          "B": "«O'zgarish va yangilanish – hayot talabi»",
+          "C": "«Milliy istiqlol mafkurasi – xalq e'tiqodi va buyuk kelajakka ishonchdir»",
+          "D": "«Vatan ozodligi – oliy saodat»"
+        },
+        "answer": "C"
+      },
+      "13": {
+        "question": "Miloddan avvalgi X asrdan eramizning VII –asrgacha davr mahsuli bo'lgan diniy-falsafiy ta'limot.",
+        "options": {
+          "A": "Zardushtiylik",
+          "B": "moniylik.",
+          "C": "buddiylik.",
+          "D": "mazdakchilik."
+        },
+        "answer": "A"
+      },
+      "14": {
+        "question": "Moniy ta'limotining asosiy g'oyasi bu …",
+        "options": {
+          "A": "nur dunyosi va zulmat dunyosi o'rtasidagi kurash.",
+          "B": "tenglik.",
+          "C": "mustaqillik uchun kurash.",
+          "D": "ozodlik."
+        },
+        "answer": "A"
+      },
+      "15": {
+        "question": "«Avesto»ning vatani…",
+        "options": {
+          "A": "Qadimgi Xorazm",
+          "B": "Qadimgi Hindiston.",
+          "C": "Qadimgi Misr.",
+          "D": "Qadimgi Farg'ona."
+        },
+        "answer": "A"
+      },
+      "16": {
+        "question": "Hindistondagi dastlabki diniy-falsafiy qarashlar qaysi yozma manbada o'z aksini topgan?",
+        "options": {
+          "A": "Vedalarda.",
+          "B": "Konfutsiyning «Hikmatlar» kitobida.",
+          "C": "buddizimning muqaddas kitobi «Uch savat donolik» da.",
+          "D": "Tavrotda."
+        },
+        "answer": "A"
+      },
+      "17": {
+        "question": "Daosizm ta'limoti qaysi qadimgi davlatda paydo bo'lgan?",
+        "options": {
+          "A": "Xitoyda.",
+          "B": "Xindistonda.",
+          "C": "Eronda.",
+          "D": "Yunonistonda."
+        },
+        "answer": "A"
+      },
+      "18": {
+        "question": "Qadimgi dunyoning qaysi faylasufi borliqning dastlabki ibtidosi suv deb aytgan?",
+        "options": {
+          "A": "Fales",
+          "B": "Demokrit.",
+          "C": "Geraklit.",
+          "D": "Pifagor."
+        },
+        "answer": "A"
+      },
+      "19": {
+        "question": "Stixiyali dialektikaga asos solgan qadimgi yunon faylasufi.",
+        "options": {
+          "A": "Geraklit.",
+          "B": "Pifogor.",
+          "C": "Anaksimen.",
+          "D": "Fales."
+        },
+        "answer": "A"
+      },
+      "20": {
+        "question": "Borliqning asosida tuproq yotadi, deb hisoblagan qadimgi davr mutafakkiri.",
+        "options": {
+          "A": "Ksenofan.",
+          "B": "Diogen.",
+          "C": "Parmenid.",
+          "D": "Zenon."
+        },
+        "answer": "A"
+      },
+      "21": {
+        "question": "«G'oyalar dunyosi va soyalar dunyosi» ta'limotining asoschisi.",
+        "options": {
+          "A": "Aflotun.",
+          "B": "Arastu.",
+          "C": "Suqrot.",
+          "D": "Demokrit."
+        },
+        "answer": "A"
+      },
+      "22": {
+        "question": "Moddiy dunyo bo'shliq va atomlardan tashkil topgan degan qarash muallifi.",
+        "options": {
+          "A": "Demokrit.",
+          "B": "Geraklit.",
+          "C": "Fales.",
+          "D": "Arastu."
+        },
+        "answer": "A"
+      },
+      "23": {
+        "question": "Olov olamning asosi deb hisoblagan faylasuf.",
+        "options": {
+          "A": "Geraklit.",
+          "B": "Demokrit.",
+          "C": "Ksenofont.",
+          "D": "Fales."
+        },
+        "answer": "A"
+      },
+      "24": {
+        "question": "Olamning asosida ideallashgan raqamlar yotadi deb …",
+        "options": {
+          "A": "Demokrit hisoblagan.",
+          "B": "Geraklit hisoblagan.",
+          "C": "Pifagor hisoblagan.",
+          "D": "Fales hisoblagan."
+        },
+        "answer": "C"
+      },
+      "25": {
+        "question": "Kalom ilmining aql maqomiga alohida e'tibor bergan Samarqandlik o'rta asr mutafakkiri.",
+        "options": {
+          "A": "Abu Mansur Moturidiy.",
+          "B": "A.Yassaviy.",
+          "C": "M. G'azzoliy.",
+          "D": "Zamaxshariy."
+        },
+        "answer": "A"
+      },
+      "26": {
+        "question": "Bag'doddagi «Bayt-ul-hikma» da ishlagan va rahbarlik qilgan buyuk alloma.",
+        "options": {
+          "A": "Abu Nasr Forobiy.",
+          "B": "Ibn Sino.",
+          "C": "Muhammad al-Xorazmiy.",
+          "D": "Beruniy."
+        },
+        "answer": "C"
+      },
+      "27": {
+        "question": "«Hindiston» asarining muallifi kim?",
+        "options": {
+          "A": "Beruniy.",
+          "B": "Ibn-Sino.",
+          "C": "Forobiy.",
+          "D": "Ahmad Farg'oniy."
+        },
+        "answer": "A"
+      },
+      "28": {
+        "question": "Prezident Islom Karimovning qaysi tamoyili o'rta asrlar falsafasini o'rganishda muhim ahamiyat kasb etadi?",
+        "options": {
+          "A": "«Kuchli davlatdan kuchli jamiyat sari».",
+          "B": "«Kuch-bilim va tafakkurda».",
+          "C": "«Olloh qalbimizda, yuragimizda».",
+          "D": "«Kuch-adolatda»."
+        },
+        "answer": "C"
+      },
+      "29": {
+        "question": "Amir Temur davrida falsafa, mantiq ilmiga katta hissa qo'shgan olimlar.",
+        "options": {
+          "A": "Sa'diddin Taftazoniy, Mir Sayyid Jurjoniy.",
+          "B": "Muhammad Sharif Buxoriy, Mirzo Bedil.",
+          "C": "Mirxond, Xondamir.",
+          "D": "Kamoliddin Behzod, Sayyid Baraka."
+        },
+        "answer": "A"
+      },
+      "30": {
+        "question": "«Ziji jadidi Ko'ragoniy» asarini kim yozgan?",
+        "options": {
+          "A": "Mirzo Ulug'bek.",
+          "B": "Amir Temur.",
+          "C": "Mirxond.",
+          "D": "Xondamir."
+        },
+        "answer": "A"
+      },
+      "31": {
+        "question": "Insoning paydo bulishi xakidagi evolyutsion kontseptsiya asoschisi kim?",
+        "options": {
+          "A": "Ch. Darvin",
+          "B": "K.Linney",
+          "C": "Ch.Pirs",
+          "D": "A. Eeynshtin"
+        },
+        "answer": "A"
+      },
+      "32": {
+        "question": "O'rta asrlarda G'arbiy Evropada universaliyalar (umumiy tushunchalar) ning mohiyati haqida bahs yuritgan oqimlarni aniqlang.",
+        "options": {
+          "A": "dualizm va panteizm.",
+          "B": "deizm va idealizm.",
+          "C": "Realizm va nominalizm.",
+          "D": "ob'ektiv va sub'ektiv dialektika."
+        },
+        "answer": "C"
+      },
+      "33": {
+        "question": "Xudo hamma narsalarda mavjud, hamma narsalar Xudoda mavjud deb hisoblagan G'arb uyg'onish davrining mutafakkiri kim?",
+        "options": {
+          "A": "N.Kopernik.",
+          "B": "Galiley.",
+          "C": "Jordano Bruno.",
+          "D": "N.Kuzanskiy."
+        },
+        "answer": "C"
+      },
+      "34": {
+        "question": "Geliotsentrizm nazariyasining asoschisi.",
+        "options": {
+          "A": "Nikolay Kuzanskiy.",
+          "B": "Galiley.",
+          "C": "J.Bruno.",
+          "D": "Nikolay Kopernik."
+        },
+        "answer": "D"
+      },
+      "35": {
+        "question": "Yangi davr Evropa faylasuflaridan qaysi biri hokimiyatlarni bo'linishi (qonun chiqaruvchi, ijro etuvchi, sud) tamoyillarini ko'rsatgan?",
+        "options": {
+          "A": "F.Bekon.",
+          "B": "R.Dekart.",
+          "C": "Didro.",
+          "D": "Jon Lokk."
+        },
+        "answer": "D"
+      },
+      "36": {
+        "question": "XVIII asr frantsuz milliy falsafa maktabi vakillarini aniqlang.",
+        "options": {
+          "A": "Didro, Russo.",
+          "B": "Tomas Gobbs, Jon Lokk.",
+          "C": "F.Bekon, J.Lokk.",
+          "D": "Kant, Gegel."
+        },
+        "answer": "A"
+      },
+      "37": {
+        "question": "«Men fikr qilyapman, demak, men mavjudman» deb qaysi mutafakkir aytgan?",
+        "options": {
+          "A": "F.Bekon.",
+          "B": "Kant.",
+          "C": "Gegel.",
+          "D": "R.Dekart."
+        },
+        "answer": "D"
+      },
+      "38": {
+        "question": "Nemis milliy falsafasi namoyondalarini aniqlang.",
+        "options": {
+          "A": "Gobbs, Lokk.",
+          "B": "Didro, Lometro.",
+          "C": "I.Kant, Gegel.",
+          "D": "Russo, Golbax."
+        },
+        "answer": "C"
+      },
+      "39": {
+        "question": "Inson aqlining cheksiz qudratiga ishonchsizlik bilan qaragan nemis faylasufi.",
+        "options": {
+          "A": "Gegel.",
+          "B": "Didro.",
+          "C": "Kant.",
+          "D": "Russo."
+        },
+        "answer": "C"
+      },
+      "40": {
+        "question": "Borliqning asosida «mutlaq g'oya», «dunyo ruhi» yotadi deb hisoblagan nemis faylasufi.",
+        "options": {
+          "A": "Kant.",
+          "B": "Dekart.",
+          "C": "Gegel.",
+          "D": "Bekon."
+        },
+        "answer": "C"
+      },
+      "41": {
+        "question": "«Zardo'sht tavallosi» asarini kim yozgan?",
+        "options": {
+          "A": "Fridrix Nitsshe.",
+          "B": "Kant.",
+          "C": "Gegel.",
+          "D": "Shpengler."
+        },
+        "answer": "A"
+      },
+      "42": {
+        "question": "XIX – asrda paydo bo'lgan pozitivizm falsafiy oqimining asoschisi.",
+        "options": {
+          "A": "Gegel.",
+          "B": "K.Popper.",
+          "C": "I.Kant.",
+          "D": "Ogyust Kont."
+        },
+        "answer": "D"
+      },
+      "43": {
+        "question": "XX asrdagi eng yirik diniy-falsafiy oqim.",
+        "options": {
+          "A": "pozitivizm.",
+          "B": "germenevtika.",
+          "C": "neotomizm.",
+          "D": "pragmatizm."
+        },
+        "answer": "C"
+      },
+      "44": {
+        "question": "AQShda keng tarqalgan, foydali faoliyatga undovchi falsafiy ta'limot.",
+        "options": {
+          "A": "ekzistentsial falsafa.",
+          "B": "germenevtika.",
+          "C": "pragmatizm.",
+          "D": "neotomizm."
+        },
+        "answer": "C"
+      },
+      "45": {
+        "question": "Insonning mavjudligi (borlig'i), erkinligi g'oyalariga tayanuvchi falsafiy ta'limot.",
+        "options": {
+          "A": "ekzistentsializm.",
+          "B": "neotomizm.",
+          "C": "pragmatizm.",
+          "D": "pozivitizm."
+        },
+        "answer": "A"
+      },
+      "46": {
+        "question": "Jamiyat tarixi, taraqqiyoti tsivilizatsiyalar almashinuvidan iborat deb hisoblovchi ingliz olimini aniqlang.",
+        "options": {
+          "A": "P.Sorokin.",
+          "B": "K.Popper.",
+          "C": "Arnold Toynbi.",
+          "D": "Rostou."
+        },
+        "answer": "C"
+      },
+      "47": {
+        "question": "Vahdati-vujud ya'ni xudoni olamning o'zida deb biladigan falsafiy oqim vakilini aniqlang.",
+        "options": {
+          "A": "Boborahim Mashrab.",
+          "B": "So'fi Olloyar.",
+          "C": "Turdi Farog'iy.",
+          "D": "Mirzo Bedil."
+        },
+        "answer": "D"
+      },
+      "48": {
+        "question": "XIX asr oxiri ma'rifatparvarlik harakatining yirik namoyandalarini aniqlang.",
+        "options": {
+          "A": "Yusuf Qorabog'iy, B.Mashrab.",
+          "B": "Ahmad Donish, Furqat.",
+          "C": "So'fi Olloyar, Turdi Farog'iy",
+          "D": "Mirzo Bedil, Muhammad Sharif Buxoriy."
+        },
+        "answer": "B"
+      },
+      "49": {
+        "question": "Jadidlar ilgari surgan asosiy g'oyalar.",
+        "options": {
+          "A": "ma'rifat, taraqqiyot, mustaqillik g'oyalari.",
+          "B": "mulkiy tenglik g'oyalari.",
+          "C": "faqat adolat g'oyalari.",
+          "D": "faqat islom dinini rivojlantirish g'oyalari."
+        },
+        "answer": "A"
+      },
+      "50": {
+        "question": "Falsafaning borliq haqidagi ta'limoti.",
+        "options": {
+          "A": "gnoseologiya.",
+          "B": "aksiologiya.",
+          "C": "ontologiya.",
+          "D": "sotsiologiya."
+        },
+        "answer": "C"
+      }
+    }
+}
